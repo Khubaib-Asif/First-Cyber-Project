@@ -1,0 +1,14 @@
+# Ignore VM images and large files
+*.ova
+*.vmdk
+*.iso
+media/*
+
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
