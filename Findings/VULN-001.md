@@ -6,7 +6,7 @@
 
 \*\*Target:\*\* DVWA on Metasploitable2 VM  
 
-\*\*VM IP used during test:\*\* 10.5.40.50  
+\*\*VM IP used during test:\*\* (e.g.10.0.0.5) 
 
 \*\*Date:\*\* 2025-09-29
 
@@ -20,9 +20,9 @@ On DVWA's SQL Injection page (security: low), crafted input changed the WHERE cl
 
 \## Steps performed (safe — on isolated lab only)
 
-1\. Boot Metasploitable2 and note the IP (example: `10.5.40.50`).  
+1\. Boot Metasploitable2 and note the IP (example: `10.0.0.5`).  
 
-2\. From host browser open `http://10.5.40.50/dvwa/`.  
+2\. From host browser open `http://10.0.0.5/dvwa/`.  
 
 3\. Login with `admin` / `password`.  
 

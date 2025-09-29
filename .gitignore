@@ -2,7 +2,7 @@
 *.ova
 *.vmdk
 *.iso
-media/*
+
 
 
 # OS artifacts
