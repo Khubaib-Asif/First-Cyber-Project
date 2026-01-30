@@ -1,42 +1,60 @@
-\#  DVWA SQL Injection 
+# DVWA SQL Injection Lab
 
+A beginner-friendly cybersecurity project demonstrating SQL injection vulnerabilities in a safe, controlled environment.
 
+## Overview
 
-\*\*Author:\*\* Muhammad Khubaib Asif  
+This project documents a hands-on penetration testing exercise using DVWA (Damn Vulnerable Web Application) on an isolated lab setup. The goal was to identify and exploit a SQL injection vulnerability, understand the attack vectors, and learn defensive coding practices.
 
-\*\*Project date:\*\* 2025-09-29
+**Author:** Muhammad Khubaib Asif  
+**Date:** September 29, 2025  
+**Institution:** University of Engineering and Technology, Lahore
 
+## Repository Contents
 
+```
+├── README.md              # Project overview
+├── lab-setup.md          # Lab environment setup instructions
+├── PERMISSIONS.md        # Ethical and legal compliance statement
+├── findings/
+│   └── VULN-001.md      # SQL injection vulnerability report
+└── media/
+    └── screenshots/      # Documentation screenshots
+```
 
-\## Project overview
+## Lab Environment
 
-This is a beginner, legal, and fully-contained cybersecurity learning project. I built an isolated lab using VirtualBox and Metasploitable2, ran DVWA (Damn Vulnerable Web App), and reproduced a basic SQL Injection vulnerability on DVWA's SQL Injection page. This repository contains lab notes, a finding write-up, and instructions to reproduce the lab locally.
+- **Attack Machine:** Kali Linux / Host OS
+- **Target Machine:** Metasploitable2 running DVWA
+- **Network:** Host-only adapter (isolated from internet)
+- **Vulnerability:** SQL Injection on DVWA login page
 
+## Quick Start
 
+1. Clone this repository
+2. Follow setup instructions in `lab-setup.md`
+3. Review the vulnerability findings in `findings/VULN-001.md`
 
-\## Repository contents
+## Key Learnings
 
-\- `lab-setup.md` — Steps to set up the lab (no VM images included).  
+- Setting up isolated penetration testing environments
+- Identifying and exploiting SQL injection vulnerabilities
+- Understanding tautology-based SQL injection techniques
+- Documenting security findings professionally
+- Importance of parameterized queries and input validation
 
-\- `findings/VULN-001.md` — Detailed vulnerability finding (SQL Injection).  
+## Ethical Notice
 
-\- `media/` — screenshots   
+⚠️ **All testing was performed on personally owned virtual machines in an isolated environment.**
 
-\- `PERMISSIONS.md` — safety and permission statement.
+This project is for educational purposes only. Attempting these techniques on systems you do not own or have explicit permission to test is illegal and unethical.
 
+See `PERMISSIONS.md` for detailed ethical guidelines.
 
+## License
 
-\## Quick usage
+MIT License - See LICENSE file for details.
 
-1\. Read `lab-setup.md` to reproduce the lab environment.  
+---
 
-2\. View `findings/VULN-001.md` for the vulnerability write-up and evidence references.
-
-
-
-\## Safety note
-
-All testing was performed on an isolated local VM. Do not run the payloads on systems you do not own or have explicit permission to test.
-
-
-
+**Contact:** Muhammad Khubaib Asif | [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
