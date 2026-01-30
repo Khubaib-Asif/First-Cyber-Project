@@ -57,4 +57,4 @@ MIT License - See LICENSE file for details.
 
 ---
 
-**Contact:** Muhammad Khubaib Asif | [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+**Contact:** Muhammad Khubaib Asif | [LinkedIn](https://linkedin.com/in/khubaib-asif) | [GitHub](https://github.com/khubaib-asif)
